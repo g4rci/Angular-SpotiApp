@@ -10,14 +10,6 @@ getQuery( query: string ){
 # Chasnge from here --->
       BQAYPjgimP7RaukJ7S2Qe0W8KF8yY8MnwXCuuzIgyD5lQcfAmQrPPMeBWWVjFe3HT85RriFYBp_gc-AOL40lY6zCnDLtttzBVMf3gFVq-GMNLfyyaHO0nxG5rBjTlYWg5gem' 
 # To here...
-    });
-
-    return this.http.get(url, { headers });
-   }
-
-'Authorization': 'Bearer 
-chasnge this --->
-BQAYPjgimP7RaukJ7S2Qe0W8KF8yY8MnwXCuuzIgyD5lQcfAmQrPPMeBWWVjFe3HT85RriFYBp_gc-AOL40lY6zCnDLtttzBVMf3gFVq-GMNLfyyaHO0nxG5rBjTlYWg5gem'  <----
 
 # Spotiapp
 
