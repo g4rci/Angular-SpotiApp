@@ -1,3 +1,24 @@
+# Generate token
+
+Go to https://developer.spotify.com/console/get-album-tracks/ to generate 1hour token to usu spotifyApp and change it on spotify.services.ts
+
+getQuery( query: string ){
+     const url = `https://api.spotify.com/v1/${ query }`;
+
+     const headers = new HttpHeaders({
+      'Authorization': 'Bearer 
+# Chasnge from here --->
+      BQAYPjgimP7RaukJ7S2Qe0W8KF8yY8MnwXCuuzIgyD5lQcfAmQrPPMeBWWVjFe3HT85RriFYBp_gc-AOL40lY6zCnDLtttzBVMf3gFVq-GMNLfyyaHO0nxG5rBjTlYWg5gem' 
+# To here...
+    });
+
+    return this.http.get(url, { headers });
+   }
+
+'Authorization': 'Bearer 
+chasnge this --->
+BQAYPjgimP7RaukJ7S2Qe0W8KF8yY8MnwXCuuzIgyD5lQcfAmQrPPMeBWWVjFe3HT85RriFYBp_gc-AOL40lY6zCnDLtttzBVMf3gFVq-GMNLfyyaHO0nxG5rBjTlYWg5gem'  <----
+
 # Spotiapp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.1.0.
